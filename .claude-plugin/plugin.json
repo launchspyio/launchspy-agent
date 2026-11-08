@@ -1,7 +1,7 @@
 {
   "name": "launchspy",
-  "description": "Research coaches, course creators and infopreneurs from your AI agent: their Meta ads, spoken hooks, funnels, builders, pricing and EU reach, from the LaunchSpy database.",
-  "version": "1.0.0",
+  "description": "Spy on the ads and funnels of the top coaches and course creators from your AI agent: Meta ads, run dates, EU reach, funnels, builders and pricing, from the LaunchSpy database.",
+  "version": "1.0.1",
   "author": {
     "name": "LaunchSpy",
     "url": "https://launchspy.io"
