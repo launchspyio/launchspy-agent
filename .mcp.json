@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "launchspy": {
+      "type": "http",
+      "url": "https://launchspy.io/api/mcp"
+    }
+  }
+}

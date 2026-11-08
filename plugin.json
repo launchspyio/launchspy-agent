@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "launchspy",
+  "version": "1.0.0",
+  "description": "Research coaches, course creators and infopreneurs from your AI agent: their Meta ads, spoken hooks, funnels, builders, pricing and EU reach, from the LaunchSpy database.",
+  "author": {
+    "name": "LaunchSpy",
+    "url": "https://launchspy.io"
+  },
+  "homepage": "https://launchspy.io/mcp",
+  "repository": "https://github.com/cadjelmedal-blip/launchspy-agent",
+  "license": "MIT",
+  "keywords": ["ads", "ad-library", "meta-ads", "funnels", "competitor-research", "coaches", "course-creators", "infopreneurs", "mcp"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "launchspy": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
