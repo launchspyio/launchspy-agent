@@ -32,7 +32,7 @@ Then copy `skills/launchspy` into `~/.claude/skills/`, or install the skill with
 ### Any agent that reads skills
 
 ```bash
-npx skills add cadjelmedal-blip/launchspy-agent
+npx skills add launchspyio/launchspy-agent
 ```
 
 ### Hermes Agent

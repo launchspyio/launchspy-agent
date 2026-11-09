@@ -8,7 +8,7 @@
     "url": "https://launchspy.io"
   },
   "homepage": "https://launchspy.io/mcp",
-  "repository": "https://github.com/cadjelmedal-blip/launchspy-agent",
+  "repository": "https://github.com/launchspyio/launchspy-agent",
   "license": "MIT",
   "keywords": ["ads", "ad-library", "meta-ads", "funnels", "competitor-research", "coaches", "course-creators", "infopreneurs", "mcp"],
   "extensions": {
