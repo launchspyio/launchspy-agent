@@ -1,5 +1,7 @@
 # LaunchSpy for AI agents
 
+![LaunchSpy: ads, funnels and pricing of coaches, for your AI agent](assets/preview.png)
+
 Spy on the ads and funnels of the top coaches and course creators from your AI agent, and copy what works: who sells in a niche, the Meta ads they run, how long each ad has been running, the funnels behind the ads and the tools those funnels are built on.
 
 This repository packages the [LaunchSpy MCP server](https://launchspy.io/mcp) with a workflow skill, for any AI agent, whatever the model behind it: Claude Code, Hermes Agent, Cursor, ChatGPT, n8n and any client that speaks MCP or reads Agent Skills. Agents without MCP use the [REST API](https://launchspy.io/openapi.json).
