@@ -32,7 +32,7 @@ The same five workflows are served as MCP prompts by the server. Documentation: 
 
 ## Requirements
 
-- A LaunchSpy account on a plan that includes the MCP (Pro or Business). See [pricing](https://launchspy.io/pricing).
+- A LaunchSpy account. A free account is enough to try it, no card needed: it gets 50 trial credits, once (they do not renew, and EU reach is not included). The Pro and Business plans include monthly credits. See [pricing](https://launchspy.io/pricing).
 - Each tool call uses one LaunchSpy credit. Connecting and listing the tools is free.
 
 ## Install
