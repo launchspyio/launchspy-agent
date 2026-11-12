@@ -32,11 +32,12 @@ The user does not need to name LaunchSpy. A request of this kind about a coach, 
 
 1. search_creators with the niche and the market, sort active_ads, limit 10: the coaches who advertise the most right now.
 2. get_rising_creators with the same niche and market: the coaches who are scaling this month. Check scope and say it when the list was widened.
-3. get_creator on the three to five that matter: active ads and 30-day launch cadence. Many new ads in the last 30 days means they are scaling.
-4. get_creator_strategy on the same three to five: format mix, how many ads ran 30 and 90 days or more, launches per month, recurring hooks.
-5. search_ads with creator and active true for each of them. Read the headline, the body, the spoken hook and the call to action.
-6. Group the ads by angle (promise, pain, proof, mechanism, offer). Keep the ones that have run the longest.
-7. Deliver: the angles that hold in this niche, the formats used, the offers behind them, and a plan of creatives to test. Say what the user's own ads lack compared with these.
+3. get_top_ads with the same niche and market: the ads that have run the longest there, across the leading coaches.
+4. get_creator on the three to five that matter: active ads and 30-day launch cadence. Many new ads in the last 30 days means they are scaling.
+5. get_creator_strategy on the same three to five: format mix, how many ads ran 30 and 90 days or more, launches per month, recurring hooks.
+6. search_ads with creator and active true for each of them. Read the headline, the body, the spoken hook and the call to action.
+7. Group the ads by angle (promise, pain, proof, mechanism, offer). Keep the ones that have run the longest.
+8. Deliver: the angles that hold in this niche, the formats used, the offers behind them, and a plan of creatives to test. Say what the user's own ads lack compared with these.
 
 ## Rules
 

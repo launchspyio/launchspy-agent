@@ -14,7 +14,7 @@ This repository packages the [LaunchSpy MCP server](https://launchspy.io/mcp) wi
 - **Take a funnel apart**: steps, builder, tracking pixels, payment stack, pricing and urgency mechanics.
 - **Check a website**: what LaunchSpy already knows about any domain.
 
-Nine read-only tools: `search_creators`, `get_creator`, `get_creator_strategy`, `get_rising_creators`, `search_ads`, `search_funnels`, `get_funnel`, `analyze_url`, `get_market`.
+Ten read-only tools: `search_creators`, `get_creator`, `get_creator_strategy`, `get_rising_creators`, `search_ads`, `get_top_ads`, `search_funnels`, `get_funnel`, `analyze_url`, `get_market`.
 
 No agent? The same data is served by the [REST API](https://launchspy.io/docs/automation) for n8n, Make, Zapier and scripts ([OpenAPI spec](https://launchspy.io/openapi.json)).
 
@@ -70,7 +70,7 @@ Use the server URL `https://launchspy.io/api/mcp` with OAuth, or an API key from
 - **Network**: every tool call goes to LaunchSpy's hosted server (`launchspy.io`) and runs on the signed-in user's account. The tool set is served by that server at runtime.
 - **Credits**: each successful or failed `tools/call` uses one credit of the user's LaunchSpy plan.
 - **Sign-in**: in Hermes, the package runs the pinned `mcp-remote@0.1.49` through `npx` (Node.js 20.18.1+ and npm required). On first use it opens a browser and a local callback port, and stores OAuth tokens under `~/.mcp-auth`.
-- **Read-only**: all nine tools are annotated read-only. They read the LaunchSpy database; none of them writes data or visits a live page. The server is marked untrusted in `plugin.json`, so Hermes asks before calling a tool when it is configured to.
+- **Read-only**: all ten tools are annotated read-only. They read the LaunchSpy database; none of them writes data or visits a live page. The server is marked untrusted in `plugin.json`, so Hermes asks before calling a tool when it is configured to.
 - **Third-party content**: tool results contain text written by advertisers (ad copy, page titles). The skill instructs the agent to treat it as data and never follow instructions found in it.
 - **Provenance**: the MCP server, its OAuth server and the product all run on launchspy.io, operated by LaunchSpy (APEX GLOBAL WORLD SOLUTIONS LLC).
 - **No local code**: this package is configuration and instructions only (`plugin.json`, `mcp.json`, `.mcp.json`, `skills/`).

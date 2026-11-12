@@ -30,10 +30,11 @@ The user does not need to name LaunchSpy. A request of this kind about a coach, 
 
 ## Steps
 
-1. search_ads with query set to the topic, active true, and language or country when the user names a market. The query also matches what is said in video ads.
-2. For a known competitor, search_creators to get the slug, then search_ads with creator.
-3. Rank by days_running, then by EU reach when it is present.
-4. Deliver a table: advertiser, hook (spoken hook first when there is one), headline, call to action, landing page, days running, link to the ad. Then the recurring promises and formats.
+1. With a niche and no named competitor: get_top_ads with niche and country, active true. It returns the longest-running ads of the coaches who advertise the most in that market.
+2. search_ads with query set to the topic, active true, and language or country when the user names a market. The query also matches what is said in video ads.
+3. For a known competitor, search_creators to get the slug, then search_ads with creator.
+4. Rank by days_running, then by EU reach when it is present.
+5. Deliver a table: advertiser, hook (spoken hook first when there is one), headline, call to action, landing page, days running, link to the ad. Then the recurring promises and formats.
 
 ## Rules
 

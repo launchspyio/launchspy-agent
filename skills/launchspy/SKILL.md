@@ -21,6 +21,7 @@ LaunchSpy tracks coaches, course creators and infopreneurs worldwide: their Meta
 | `search_creators` | Find who operates in a market | `query`, `niche`, `country`, `language`, `platform`, `min_ads`, `sort` (`ads`, `active_ads`, `followers`, `recent`) |
 | `get_creator` | Open one creator: niche, country, platforms, socials, followers, total and active ads, 30-day launch cadence | `slug` from `search_creators` |
 | `search_ads` | Read ad creative: headline, body, CTA, landing page, run dates, EU reach, and the transcribed opening line of video ads | `creator` (slug) or `query` (one of the two is required), `country`, `language`, `active` |
+| `get_top_ads` | Find proven ads in a market without naming a competitor: the longest-running ads of the coaches who advertise the most, up to four per coach | `niche`, `country` (one of the two is required), `active` |
 | `search_funnels` | Find funnels by creator, domain, builder or type | `creator`, `domain`, `builder`, `type`, `niche`, `country`, `active`, `sort` |
 | `get_funnel` | Take one funnel apart: steps, pixels, payment stack, extracted pricing, scarcity signals, pages with their own ads | `funnel_id` from `search_funnels` |
 | `analyze_url` | Everything already known about a URL or domain: funnels, the creators behind them, builder, ad volume | `url` |
