@@ -24,6 +24,9 @@ LaunchSpy tracks coaches, course creators and infopreneurs worldwide: their Meta
 | `search_funnels` | Find funnels by creator, domain, builder or type | `creator`, `domain`, `builder`, `type`, `niche`, `country`, `active`, `sort` |
 | `get_funnel` | Take one funnel apart: steps, pixels, payment stack, extracted pricing, scarcity signals, pages with their own ads | `funnel_id` from `search_funnels` |
 | `analyze_url` | Everything already known about a URL or domain: funnels, the creators behind them, builder, ad volume | `url` |
+| `get_market` | Size a market: coaches, total and active ads, median price in USD when enough prices were read. An empty list with `nearby` means the pair is too small to be counted on its own | `niche`, `country` (one of the two is required) |
+| `get_rising_creators` | Find who is scaling this month: more ads launched than stopped over 30 days. `scope` says whether the list was widened beyond the niche and country asked | `niche`, `country` |
+| `get_creator_strategy` | See how one creator runs ads: format mix, ads that ran 7, 30 and 90 days or more, launches per month, top CTAs, placements, recurring opening lines. `analysed: false` means not computed yet | `slug` |
 
 Niches follow a closed list. Pass a domain (for example `Coaching`, `Trading & Finance`, `Health & Fitness`) to include all its sub-niches, or an exact sub-niche (`Life Coaching`, `Crypto Trading`, `Amazon FBA`). An unknown niche returns the full list, which is a cheap way to learn it.
 

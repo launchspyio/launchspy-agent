@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "launchspy",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Spy on the ads and funnels of the top coaches and course creators from your AI agent: Meta ads, run dates, EU reach, funnels, builders and pricing, from the LaunchSpy database.",
   "author": {
     "name": "LaunchSpy",
